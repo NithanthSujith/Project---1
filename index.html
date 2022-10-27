@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keen-The Ultimate bootstrap Admin Dashboard Theme For HTML</title>
+    <script src="https://kit.fontawesome.com/c9a8282802.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width: 400px) and (max-width:984px)" href="phone1.css">
+    <link rel="stylesheet" media="screen and (min-width: 0px) and (max-width:400px)" href="phone2.css">
+</head>
+<body>
+    <div class="toggleSidebar">
+        <i class="fa-solid fa-bars barsIcon"></i>
+    </div>
+    <div class="sidebar-menu ">
+        <div class="sidebar-logo">
+            <span id="keen">
+                <span class="keenLogo"><img src="images/keen logo.svg" alt="" id="keenLOGO"></span>
+                
+            </span>
+            <span class="collapseIcon">
+                <i class='bx bx-chevrons-right' id="collapseIcon"></i> 
+            </span>
+        </div>
+        <div class="sidebarContent">
+            <div class="sidebarDashboardFull">
+                <div class="sidebarDashboards">
+                    <span class="dashboardIcon"><i class='bx bxs-dashboard'></i></span>
+                    <div class="sidebarDashboardText">
+                        <span class="dashboardText">
+                            <p>Dashboard </p>
+                        </span>
+                        <span class="dashboardDropdownIcon"><i class='bx bx-chevron-down ' id="dropdownIcon"></i></span> 
+                    </div>
+                </div>
+                <ul class="sidebarDashboardDropdown">
+                    <div class="sidebarDropdownCascaded activeDashboard">
+                        <i class="fa-solid fa-circle"></i><span class="sidebarDashboardDropdownContent">Default</span>
+                    </div>
+                    <div class="sidebarDropdownCascaded">
+                        <i class="fa-solid fa-circle"></i><span class="sidebarDashboardDropdownContent">Projects</span>
+                    </div>
+                    <div class="sidebarDropdownCascaded">
+                        <i class="fa-solid fa-circle"></i><span class="sidebarDashboardDropdownContent">eCommerce</span>
+                    </div>
+                    <div class="sidebarDropdownCascaded">
+                        <i class="fa-solid fa-circle"></i><span class="sidebarDashboardDropdownContent">Marketing</span>
+                    </div>
+                    <div class="showLessShowMore">
+                        <div class="sidebarDropdownCascaded">
+                            <i class="fa-solid fa-circle"></i><span class="sidebarDashboardDropdownContent">Social</span>
+                        </div>
+                        <div class="sidebarDropdownCascaded">
+                            <i class="fa-solid fa-circle"></i><span class="sidebarDashboardDropdownContent">Bidding</span>
+                        </div>
+                        <div class="sidebarDropdownCascaded">
+                            <i class="fa-solid fa-circle"></i><span class="sidebarDashboardDropdownContent">Online Courses</span>
+                        </div>
+                        <div class="sidebarDropdownCascaded">
+                            <i class="fa-solid fa-circle"></i><span class="sidebarDashboardDropdownContent">Logisitics</span>
+                        </div>
+                    </div>
+                    <div class="sidebarDropdownCascaded showDashboard">
+                        <span class="sidebarDashboardDropdownContent showText">Show 4 More</span><i class='bx bxs-plus-square PlusMinus'></i>
+                    </div>
+                </ul>
+            </div>
+            <div class="sidebarPagesFull">
+                <p class="pagesTxt">PAGES</p>
+                <div class="sidebarPageContent">
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bxs-user-account'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>User Profile</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bx-user-circle'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Account</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bx-user'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Authentication</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bxs-notepad'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Corporate</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bx-football'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Social</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bxs-bank'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Blog</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bx-speaker'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Careers</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bx-layout'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Utilities</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebarPagesFull">
+                <p class="pagesTxt">APPS</p>
+                <div class="sidebarPageContent">
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bxs-user-account'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Projects</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bx-user-circle'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>eCommerce</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bx-user'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Contacts</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bxs-notepad'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Support Center</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bx-football'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>User Management</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bxs-bank'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Customers</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bx-speaker'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Subscription</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                    <div class="sidebarPages">
+                        <span class="PagesIcon"><i class='bx bx-layout'></i></span>
+                        <div class="sidebarPagesText">
+                            <span class="PagesText">
+                                <p>Invoice Manager</p>
+                            </span>
+                            <span class="pagesDropdownIcon"><i class='bx bx-chevron-down '></i></span> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-website">
+        <nav class="navbar ">
+            <ul class="left-navbar ">
+                <li class="navLeft active" id="dashboard">
+                    Dashboards
+                    <div class="dropdownNavbar" id="dashboardDropdown">
+                        <ul class="firstDashboard">
+                            <li class="firstDropdown active2">
+                                <div class="dropdownImage firstColor"><i class='bx bxs-cake'></i></div> 
+                                <div class="dashboardHeading">
+                                    Default
+                                    <div class="secondaryDashboard">Reports & statistics</div>
+                                </div>
+                            </li>
+                            <li class="firstDropdown"><div class="dropdownImage secondColor"><i class='bx bxs-grid-alt'></i></div> 
+                                <div class="dashboardHeading">
+                                    eCommerce
+                                    <div class="secondaryDashboard">Sales reports</div>
+                                </div>
+                            </li>
+                            <li class="firstDropdown"><div class="dropdownImage thirdColor"><i class='bx bx-football'></i></div> 
+                                <div class="dashboardHeading">
+                                    Social
+                                    <div class="secondaryDashboard">Feeds & Activities</div>
+                                </div>
+                            </li>
+                            <li class="firstDropdown"><div class="dropdownImage fourthColor"><i class='bx bxs-folder-open'></i></div> 
+                                <div class="dashboardHeading">
+                                    Online Courses
+                                    <div class="secondaryDashboard">Student progress</div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="secondDashboard">
+                            <li class="firstDropdown"><div class="dropdownImage fifthColor"><i class='bx bx-unite'></i></div>
+                                <div class="dashboardHeading">
+                                    Projects
+                                    <div class="secondaryDashboard">Tasts, grpahs & charts</div>
+                                </div> 
+                            </li>
+                            <li class="firstDropdown"><div class="dropdownImage sixthColor"><i class='bx bxs-bar-chart-alt-2'></i></div> 
+                                <div class="dashboardHeading">
+                                    Marketing
+                                    <div class="secondaryDashboard">Campaigns & conversions</div>
+                                </div>
+                            </li>
+                            <li class="firstDropdown"><div class="dropdownImage sevnthColor"><i class='bx bx-toggle-left'></i></div>
+                                <div class="dashboardHeading">
+                                    Bidding
+                                    <div class="secondaryDashboard">Deals & stock exchange</div>
+                                </div> 
+                            </li>
+                            <li class="firstDropdown"><div class="dropdownImage eighthColor"><i class='bx bxs-truck'></i></div>
+                                <div class="dashboardHeading">
+                                    Logisitics
+                                    <div class="secondaryDashboard">Shipment and delivery</div>
+                                </div> 
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="navLeft " id="pages">
+                    Pages
+                    <div class="dropdownNavbar" id="pagesDropdown">
+                        <div class="pagesDropdownFull">
+                            <div class="pagesHeader">
+                                <div class="pageHeaderBox">
+                                    <div class="pageHeaderContent activePage">General</div>
+                                    <div class="pageHeaderContent">Account</div>
+                                    <div class="pageHeaderContent">Authentication</div>
+                                    <div class="pageHeaderContent">Utilities</div>
+                                </div>
+                            </div>
+                            <div class="pagesMainContent">
+                                <div class="pagesContentPrimary">
+                                    <div class="pagesSubheading">
+                                        <h4>User Profile </h4>
+                                        <div class="subPages">
+                                            <div class="subPageContent">Overview</div>
+                                            <div class="subPageContent">Projects</div>
+                                            <div class="subPageContent">Campaigns</div>
+                                            <div class="subPageContent">Documents</div>
+                                            <div class="subPageContent">Followers</div>
+                                            <div class="subPageContent">Activity</div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="pagesSubheading">
+                                        <h4>Corporate </h4>
+                                        <div class="subPages">
+                                            <div class="subPageContent">About</div>
+                                            <div class="subPageContent">Our Team</div>
+                                            <div class="subPageContent">FAQ</div>
+                                            <div class="subPageContent">Contact Us</div>
+                                            <div class="subPageContent">Pricing</div>
+                                            <div class="subPageContent">Licenses</div>
+                                            <div class="subPageContent">Sitemap</div>
+                                        </div>
+                                    </div>
+                                    <div class="pagesSubheading blogPages">
+                                        <h4>Blog </h4>
+                                        <div class="subPages">
+                                            <div class="subPageContent">Blog Home</div>
+                                            <div class="subPageContent">Blog Post</div>
+                                        </div>
+                                        <div class="pagesSubheading careersPages">
+                                            <h4>Careers</h4>
+                                            <div class="subPages">
+                                                <div class="subPageContent">Careers List</div>
+                                            <div class="subPageContent">Careers Apply</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pagesSubheading">
+                                        <h4>Social </h4>
+                                        <div class="subPages">
+                                            <div class="subPageContent">Feeds</div>
+                                            <div class="subPageContent">Activity</div>
+                                            <div class="subPageContent">Followers</div>
+                                            <div class="subPageContent">Settings</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pagesContentImage">
+                                    <div class="pageImg"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navLeft" id="apps">
+                    Apps
+                    <div class="dropdownNavbar" id="appsDropdown">
+                        <div class="appsDropdownFull">
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bx-rocket'></i></span>
+                                <span class="appsText">
+                                    Projects
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bx-cart-alt'></i></span>
+                                <span class="appsText">
+                                    eCommerce
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bxs-doughnut-chart'></i></span>
+                                <span class="appsText">
+                                    Support Center
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bxs-check-shield'></i></span>
+                                <span class="appsText">
+                                    User Management
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bxs-buildings'></i></span>
+                                <span class="appsText">
+                                    Contacts
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bx-cake'></i></span>
+                                <span class="appsText">
+                                    Subscription
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bx-briefcase'></i></span>
+                                <span class="appsText">
+                                    Customers
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bx-credit-card'></i></span>
+                                <span class="appsText">
+                                    Invoice Management
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bxs-file-blank'></i></span>
+                                <span class="appsText">
+                                    File Manager
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bx-envelope'></i></span>
+                                <span class="appsText">
+                                    Inbox
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bx-message-detail'></i></span>
+                                <span class="appsText">
+                                    Chat
+                                    <span class="appsArrow"><i class='bx bx-chevron-right'></i></span>
+                                </span>
+                            </div>
+                            <div class="appsContent">
+                                <span class="appsIcon"><i class='bx bxs-calendar-event'></i></span>
+                                <span class="appsText">
+                                    Calender
+                                    <!-- <span class="appsArrow"><i class='bx bx-chevron-right'></i></span> -->
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navLeft" id="layouts" >
+                    Layouts
+                    <div class="dropdownNavbar" id="layoutsDropdown">
+                        <div class="layoutFirstRow">
+                            <div class="layoutCol-1">
+                                <div class="layoutMode">
+                                    <i class="fa-solid fa-circle"></i>
+                                    <p>Light Sidebar</p>
+                                </div>
+                                <div class="layoutMode">
+                                    <i class="fa-solid fa-circle"></i>
+                                    <p>Dark Sidebar</p>
+                                </div>
+                                <div class="layoutMode">
+                                    <i class="fa-solid fa-circle"></i>
+                                    <p>Light Header</p>
+                                </div>
+                                <div class="layoutMode">
+                                    <i class="fa-solid fa-circle"></i>
+                                    <p>Dark Header</p>
+                                </div>
+                                
+                            </div>
+                            <div class="layoutCol-2">
+                            </div>
+                        </div>
+                        <div class="layoutSecondRow">
+                            <div class="layoutFooterText">
+                                <p id="firstFooterLayout">Layout Builder</p>
+                                <p id="secondFooterLayout">Customize, preview and export</p>
+                            </div>
+                            <div class="BuilderBtn">Try Builder</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navLeft" id="help">
+                    Help
+                    <div class="dropdownNavbar" id="helpDropdown">
+                        <div class="helpDropdownContent">
+                            <i class='bx bx-rocket'></i>
+                            <p>Components</p>
+                        </div>
+                        <div class="helpDropdownContent">
+                            <i class='bx bx-layer'></i>
+                            <p>Documentation</p>
+                        </div>
+                        <div class="helpDropdownContent">
+                            <i class='bx bx-code-alt'></i>
+                            <p>Changelog v3.0.1</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="right-navbar">
+                <li class="navRight searchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    
+                </li>
+                <div class="searchBox ">
+                    <div class="searchBar">
+                        <span class="searchBarIcon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <span class="SearchTextSpace"><input type="text" name="search" id="searchInput" placeholder="Search.."></span>
+                        <span class="searchSettingsIcon"><i class='bx bx-cog'></i></span>
+                        <span class="searchBoxdropdown"><i class='bx bx-chevron-down'></i></span>
+                    </div>
+                    <div class="recentSearch">
+                        <div class="Recent">Recently Searched:</div>
+                        <div class="recentSearchBox">
+                            <div class="recentSearchContent">
+                                <div class="iconBox"><i class='bx bx-desktop'></i></div>
+                                <span class="recentSearchText">
+                                    <div class="mainSearchText">BoomApp by Keenthemes</div>
+                                    <div class="secondarySearchText">#45789</div>
+                                </span>
+                            </div>
+                            <div class="recentSearchContent">
+                                <div class="iconBox"><i class='bx bxs-objects-vertical-bottom'></i></div>
+                                <span class="recentSearchText">
+                                    <div class="mainSearchText">"Kept API Project Meeting</div>
+                                    <div class="secondarySearchText">#84050</div>
+                                </span>
+                            </div>
+                            <div class="recentSearchContent">
+                                <div class="iconBox"><i class='bx bxs-doughnut-chart'></i></div>
+                                <span class="recentSearchText">
+                                    <div class="mainSearchText">"KPI Monitoring App Launch</div>
+                                    <div class="secondarySearchText">#84250</div>
+                                </span>
+                            </div>
+                            <div class="recentSearchContent">
+                                <div class="iconBox"><i class='bx bx-line-chart'></i></div>
+                                <span class="recentSearchText">
+                                    <div class="mainSearchText">Project Reference FAQ</div>
+                                    <div class="secondarySearchText">#67945</div>
+                                </span>
+                            </div>
+                            <div class="recentSearchContent">
+                                <div class="iconBox"><i class='bx bx-envelope'></i></div>
+                                <span class="recentSearchText">
+                                    <div class="mainSearchText">FitPro App Development</div>
+                                    <div class="secondarySearchText">#84250</div>
+                                </span>
+                            </div>
+                            <div class="recentSearchContent">
+                                <div class="iconBox"><i class='bx bxs-bank'></i></div>
+                                <span class="recentSearchText">
+                                    <div class="mainSearchText">FitPro App Development</div>
+                                    <div class="secondarySearchText">#84250</div>
+                                </span>
+                            </div>
+                            <div class="recentSearchContent">
+                                <div class="iconBox"><i class='bx bxs-objects-vertical-bottom'></i></div>
+                                <span class="recentSearchText">
+                                    <div class="mainSearchText">"Kept API Project Meeting</div>
+                                    <div class="secondarySearchText">#84050</div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li class="navRight activity">
+                    <i class="fa-solid fa-chart-simple"></i>
+                </li>
+                <div class="activityL activityList disable">
+                    <div class="headActivity">
+                        <h1>Activity Logs</h1>
+                        <span class="closeActivity">
+                            <i class="fa-solid fa-xmark"></i>
+                        </span>
+                    </div>
+                    <div class="ActivityContent">
+
+                    </div>
+                </div>
+                <li class="navRight notification">
+                    <i class="fa-regular fa-bell"></i>
+                    <div class="notificationBox dropdownNavbar">
+                        <div class="notificationHeader">
+                            <div class="mainHeader">
+                                <div class="notificationText">
+                                    <span class="notifHeading">
+                                        Notification
+                                    </span>
+                                    <span class="notifRemaining">
+                                        24 reports
+                                    </span>
+                                </div>
+                                <div class="notificationType">
+                                    <span class="notifType">
+                                        Alerts
+                                    </span>
+                                    <span class="notifType" id="activeNotifType">
+                                        Updates
+                                    </span>
+                                    <span class="notifType">
+                                        Logs
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notificationContent">
+                            <div class="notifContentMain">
+                                <span class="boldNotif">Get Pro Access</span>
+                                <span class="NotifSecondaryText">Outlines keep you honest. They stoping you from amazing poorly about drive
+                                </span>
+                                <div class="upgradeBtnNotif">Upgrade</div>
+                            </div>
+                            <div class="notifImage"></div>
+
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="navRight message">
+                    <div class="blinker"></div>
+                    <i class="fa-regular fa-message"></i>
+                    
+                </li>
+                <div class="messagePopup">
+                       <div class="headMessage">
+                            <h1>Brian Cox</h1>
+                            <span class="closeMessage">
+                                <i class="fa-solid fa-xmark"></i>
+                            </span>
+                       </div> 
+                       <div class="messageContent"></div>
+                </div>
+                <li class="navRight language">
+                    <div id="language"></div>
+                    <div class="languageBox dropdownNavbar">
+                        <div class="languageBoxContent">
+                            <div class="languageSelector activeLanguage">
+                                <div id="languageImg" class="English"></div>
+                                <p>English</p>
+                            </div>
+                            <div class="languageSelector">
+                                <div id="languageImg" class="Spanish"></div>
+                                <p>Spanish</p>
+                            </div>
+                            <div class="languageSelector">
+                                <div id="languageImg" class="German"></div>
+                                <p>German</p>
+                            </div>
+                            <div class="languageSelector">
+                                <div id="languageImg" class="Japanese"></div>
+                                <p>Japanese</p>
+                            </div>
+                            <div class="languageSelector">
+                                <div id="languageImg" class="French"></div>
+                                <p>French</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="navRight mode">
+                    <i class='bx bxs-sun'></i>
+                    <div class="modeBox dropdownNavbar">
+                        <div class="modeBoxContent">
+                            <div class="modeSelector activeMode">
+                                <i class='bx bx-sun'></i>
+                                <p>Light</p>
+                            </div>
+                            <div class="modeSelector">
+                                <i class='bx bxs-moon'></i>
+                                <p>Dark</p>
+                            </div>
+                            <div class="modeSelector">
+                                <i class='bx bx-desktop'></i>
+                                <p>System</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="navRight login">
+                    <div class="loginBox dropdownNavbar">
+                        <div class="loginInfo">
+                            <div class="entireInfo">
+                                <span class="accImage"></span>
+                                <span class="nameInfo">
+                                    <div class="firstSegmentNameInfo">
+                                        <span class="nameLogin">Max Smith</span>
+                                        <span class="versionLogin">Pro</span>
+                                    </div>
+                                    <div class="accSegment">max@kt.com</div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="loginContent">
+                            <div class="accInfo">
+                                <div class="myAccInfo">My Profile</div>
+                                <div class="myAccInfo">My Projects <span class="projectNumber">3</span></div>
+                                <div class="myAccInfo subscription">My Subscription <span class="sideDropdownArrow"><i class='bx bx-chevron-right'></i></span></div>
+                                
+                                <div class="myAccInfo">My Statements</div>
+                            </div>
+                            <div class="accSettings">
+                                <div class="accSettingTypes languageSetting">
+                                    Language 
+                                    <span class="currentLanguage">
+                                        <span class="languageName">English</span>
+                                        <span class="languagePhoto"></span>
+                                    </span>
+                                    <div class="languageBoxLogin dropdownNavbar">
+                                        <div class="languageBoxContent">
+                                            <div class="languageSelector activeLanguage">
+                                                <div id="languageImg" class="English"></div>
+                                                <p>English</p>
+                                            </div>
+                                            <div class="languageSelector">
+                                                <div id="languageImg" class="Spanish"></div>
+                                                <p>Spanish</p>
+                                            </div>
+                                            <div class="languageSelector">
+                                                <div id="languageImg" class="German"></div>
+                                                <p>German</p>
+                                            </div>
+                                            <div class="languageSelector">
+                                                <div id="languageImg" class="Japanese"></div>
+                                                <p>Japanese</p>
+                                            </div>
+                                            <div class="languageSelector">
+                                                <div id="languageImg" class="French"></div>
+                                                <p>French</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accSettingTypes">Account Settings</div>
+                                <div class="accSettingTypes">Sign Out</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="siteContent ">
+            <div class="miniHeader">
+                <div class="rightMiniHeader">
+                    <p id="mainTagRightMiniHeader">Default</p>
+                    <p id="secondaryTagRightMiniHeader">Home - Dashboards</p>
+                </div>
+                <div class="leftMiniHeader">
+                        <span class="selCampaign">Select Campaign<i class='bx bx-chevron-down'></i>
+                            <ul class="selCampaignDropdown">
+                                <li class="selCampaignDropdown-list activeDropdown ">content-1 <i class='bx bx-check'></i></li>
+                                <li class="selCampaignDropdown-list">content-2</li>
+                                <li class="selCampaignDropdown-list">content-3</li>
+                                <li class="selCampaignDropdown-list">content-4</li>
+                                <li class="selCampaignDropdown-list">content-5</li>
+                            </ul>
+                        </span>
+                        <span class="createCampaign"><i class='bx bx-plus'></i></span>
+                </div>
+            </div>
+            <div class="boxContent">
+                <div class="topRowFirstColumn">
+                    <div class="insideBoxfirstColumn">
+                        <div class="insideBoxRows blueBackground">
+                            <div class="firstColFirstRowInnerContent">
+                                <div class="activeProjects">
+                                    <h1>69</h1>
+                                    <h3>Active Projects in April</h3>
+                                </div>
+                                <div class="projectStatusBar">
+                                    <div class="writtenStatus">
+                                        <h4>43 Pending</h4>
+                                        <h4>72%</h4>
+                                    </div>
+                                    <div class="progressStatus">
+                                        <div class="currentProgressStatus"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="insideBoxRows secondBox">
+                            <div class="secondBoxInnerContent">
+                                <div class="secondBoxHeading">
+                                    <span class="secondBoxheadingText">External Links</span>
+                                    <span class="secondBoxdropdown"><i class="fa-solid fa-ellipsis"></i></span>
+                                </div>
+                                <div class="externalLinksContent">
+                                    <div class="externalLinksElements">
+                                        <span>Avg. Client Rating</span>
+                                        <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                                    </div>
+                                    <div class="externalLinksElements">
+                                        <span>Instagram Followers</span>
+                                        <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                                    </div>
+                                    <div class="externalLinksElements">
+                                        <span>Google Ads </span>
+                                        <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="insideBoxfirstColumn">
+                        <div class="insideBoxRows thirdBox">
+                            <div class="thirdBoxContent">
+                                <div class="thirdBoxHeading">
+                                    <div class="changeThirdBox">
+                                        <span class="amount">
+                                            <span class="dollarThirdBox">
+                                                $
+                                            </span>
+                                            <h1 class="mainAmount">
+                                                69,700
+                                            </h1>
+                                        </span>
+                                        <span class="changeContent">
+                                            <span class="iconThirdBox">
+                                                <i class='bx bx-up-arrow-alt'></i>
+                                            </span>
+                                            <span class="percentageChange">2.2%</span> 
+                                        </span>
+                                    </div>
+                                    <div class="thirdBoxSubHeading">
+                                        Projects Earnings in April
+                                    </div>
+                                </div>
+                                
+                                <div class="thirdBoxmainContent">
+                                    <div class="donoutchart">
+                                        <div class="donutChartImage">
+
+                                        </div>
+                                    </div>
+                                    <div class="donoutChartExplanation">
+                                        <div class="mainExplanation">
+                                            <div class="donutValues">
+                                                <div class="colorOfArc firstColorOfArc"></div>
+                                                <div class="donutContent">Leaf CRM</div>
+                                                <div class="finalValueOfDonut">$7,660</div>
+                                            </div>
+                                            <div class="donutValues">
+                                                <div class="colorOfArc secondColorOfArc"></div>
+                                                <div class="donutContent">Mivy App</div>
+                                                <div class="finalValueOfDonut">$2,820</div>
+                                            </div>
+                                            <div class="donutValues">
+                                                <div class="colorOfArc thirdColorOfArc"></div>
+                                                <div class="donutContent">Others</div>
+                                                <div class="finalValueOfDonut">$45,257</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="insideBoxRows fourthBox">
+                            <div class="secondBoxInnerContent">
+                                <div class="secondBoxHeading">
+                                    <span class="secondBoxheadingText">Highlights</span>
+                                </div>
+                                <div class="highlisghtsContent">
+                                    <div class="highlisghtsElements">
+                                        <span>Avg. Client Rating</span>
+                                        <span class="highlightsELementsSide"><i class='bx bx-up-arrow-alt'></i><span class="changeValue">7.8
+                                             <span class="denominator">/10</span></span></span>
+                                    </div>
+                                    <div class="highlisghtsElements">
+                                        <span>Avg. Quotes</span>
+                                        <span class="highlightsELementsSide"><i class='bx bx-down-arrow-alt'></i><span class="changeValue">730</span></span>
+                                    </div>
+                                    <div class="highlisghtsElements">
+                                        <span>Avg. Agent Earnings</span>
+                                        <span class="highlightsELementsSide"><i class='bx bx-up-arrow-alt'></i><span class="changeValue">$2,309</span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="topRowSecondColumn">
+                    <div class="insidBoxSecondColum">
+                        <div class="secondColumnContent">
+                            <div class="secondColumnHead">
+                                <span class="headingTextSecondColumn">
+                                    <h3>Authors Achievements</h3>
+                                    <h4>Avg. 69.34% Conv. Rate</h4>
+                                </span>
+                                <span class="secondBoxdropdown"><i class="fa-solid fa-ellipsis"></i></span>
+                            </div>
+                            <div class="secondColumncategories">
+                                <div class="categorires activedCategory">
+                                    <div class="categoryIcon">
+                                        <i class='bx bx-cloud'></i>
+                                    </div>
+                                    <h4>SaaS</h4>
+                                    <div class="activeCategory"></div>  
+                                </div>
+                                <div class="categorires">
+                                    <div class="categoryIcon ">
+                                        <i class='bx bx-money-withdraw'></i>
+                                    </div>
+                                    <h4>Crypto</h4>
+                                    <div class="activeCategory"></div> 
+                                </div>
+                                <div class="categorires">
+                                    <div class="categoryIcon">
+                                        <i class='bx bx-notepad'></i>
+                                    </div>
+                                    <h4>Social</h4>
+                                    <div class="activeCategory"></div>
+                                </div>
+                                <div class="categorires">
+                                    <div class="categoryIcon">
+                                        <i class='bx bx-mobile-alt'></i>
+                                    </div>
+                                    <h4>Mobile</h4>
+                                    <div class="activeCategory"></div>
+                                </div>
+                                <div class="categorires">
+                                    <div class="categoryIcon">
+                                        <i class='bx bxl-telegram'></i>
+                                    </div>
+                                    <h4>Others</h4>
+                                    <div class="activeCategory"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    
+
+
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
